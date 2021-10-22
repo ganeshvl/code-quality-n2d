@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/out_side_lay_out"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="end">
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="end"
+            android:id="@+id/cancel_but"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/error"
+            app:tint="@color/dark_grey" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ic_report_ll"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingHorizontal="@dimen/_40sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_spam_click"
+            app:tint="@color/dark_grey" />
+
+        <TextView
+            android:id="@+id/cb_hateful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center_vertical|center"
+            android:text="Report the story"
+            android:textColor="#000"
+            android:textSize="@dimen/_15sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/ic_bookmark_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:paddingHorizontal="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/bookmark_click"
+            app:tint="@color/dark_grey" />
+
+        <TextView
+            android:id="@+id/cb_book_mart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center_vertical|center"
+            android:text="Bookmark the story"
+            android:textColor="#000"
+            android:textSize="@dimen/_15sdp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

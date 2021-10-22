@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#FDFBFD"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="@dimen/_10sdp"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="@dimen/_90sdp"
+                            android:layout_height="@dimen/_90sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_20sdp">
+
+                            <LinearLayout
+                                android:layout_width="@dimen/_90sdp"
+                                android:layout_height="@dimen/_90sdp"
+                                android:layout_gravity="center">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/iv_pro_pic"
+                                    android:layout_width="@dimen/_90sdp"
+                                    android:layout_height="@dimen/_90sdp"
+                                    android:padding="@dimen/_5sdp"
+                                    android:tint="@color/app_color"
+                                    android:background="@drawable/profile" />
+
+                            </LinearLayout>
+
+
+
+                        </RelativeLayout>
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="your name"
+                            android:textColor="#003459"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/yourname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="johny"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@color/grey" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Email:"
+                            android:textColor="#003459"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/Email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="info@news2day.com"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@color/grey" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="phone:"
+                            android:textColor="#003459"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="98XXXXXX45"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@color/grey" />
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Date of Birth:"
+                            android:textColor="#003459"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/dob_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="20/09/1997"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@color/grey" />
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Gender:"
+                            android:textColor="#003459"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/Gender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Male"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/Edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bt_background"
+                    android:text="Edit"
+                    android:textColor="#FFF"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

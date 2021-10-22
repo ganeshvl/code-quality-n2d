@@ -1,0 +1,195 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NEWS2DAY</string>
+
+    <string name="news_day">NEWS2DAY</string>
+    <string name="spl_videos">PV Sindhu, Lovlina Borgohain Shine For India, Shooters Disappoint Again</string>
+    <string name="heading_one">Get the daily updates from  \n your locality</string>
+    <string name="heading_two">Trusted by 1+Million Indians</string>
+    <string name="heading_three">Explore Top News and topics in \n your preffered language</string>
+
+    <string name="verification_code_en">We have sent a verification code to</string>
+    <string name="verification_code_te">మేము ధృవీకరణ కోడ్‌ను పంపించాము</string>
+    <string name="verification_code_hi">हमने एक सत्यापन कोड भेजा है</string>
+
+    <string name="resend_en">Didn\'t receive the code? <u><font color='#3E6F37'>Resend now</font></u> </string>
+    <string name="resend_te">కోడ్ అందుకోలేదా? <u><font color='#3E6F37'>ఇప్పుడు మళ్లీ పంపండి</font></u> </string>
+    <string name="resend_hi">कोड प्राप्त नहीं हुआ? <u><font color='#3E6F37'>अभी भेजें</font></u> </string>
+
+    <string name="terms_amp_conditions_en"> <u><![CDATA[Terms & conditions]]></u></string>
+    <string name="terms_amp_conditions_te"> <u><![CDATA[నిబంధనలు మరియు షరతులకు అంగీకరిస్తున్నారు]]></u></string>
+    <string name="terms_amp_conditions_hi"> <u><![CDATA[नियमों और शर्तों से सहमत होते हैं]]></u></string>
+
+    <string name="terms_and_conditions_en"> Terms &amp; conditions</string>
+    <string name="terms_and_conditions_te"> నిబంధనలు మరియు షరతులకు అంగీకరిస్తున్నారు</string>
+    <string name="terms_and_conditions_hi"> ियमों और शर्तों से सहमत होते हैं</string>
+
+    <string name="don_t_have_an_account_register">Don\'t have an account?  <u><font color='#EE0000'>Register</font></u></string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+
+    <string name="privacy_policy_heading">What Data We Collect </string>
+    <string name="privacy_policy_tx_two">General Data:\nThe use of our services will automatically create information that will be collected. For example, when you use our Services, your geographic location, how you use the Services, information about the type of device you use, your Open Device Identification Number, date/time stamps for your visit, your unique device identifier, your browser type, operating system, Internet Protocol (IP) address, and domain name are all collected. This information is generally used to help us deliver the most relevant information to you and administer and improve the Site. Log Files: As is true of most websites, we gather certain information automatically and store it in log files. This information includes IP addresses, browser type, Internet service provider (ISP), referring/exit pages, operating system, date/time stamp, and clickstream data. We use this information to maintain and improve the performance of the Services. Analytics: We use analytics services (including, but not limited to, Google Analytics) to help analyze how users use the Site. Analytics services use Cookies to collect information such as how often users visit the Site and we use the information to improve our Site and Services. The analytics services ability to use and share information collected by them is restricted by their terms of use and privacy policy, which you should refer to for more information about how these entities use this information. </string>
+    <string name="privacy_policy_tx">News2day Application is committed to protecting your privacy online. This Privacy Policy endeavours to describe to you our practices regarding the personal information we collect from users on our website, located at lipsum.com (the “Site”), and the services offered through the Site. If you have any questions about our Privacy Policy, our collection practices, the processing of user information, or if you would like to report a security violation to us directly, please contact us at help@lipsum.com </string>
+    <string name="terms_top_tx">Last Revised: January 16, 2021</string>
+    <string name="terms_heading_one"> 1.YOUR AGREEMENT </string>
+    <string name="terms_heading_two"> 2.PRIVACY </string>
+    <string name="terms_heading_three"> 3. LINKED SITES </string>
+    <string name="terms_heading_two_tx">Please review our Privacy Policy, which also governs your visit to this Site, to understand our practices.</string>
+    <string name="terms_heading_three_tx">This Site may contain links to other independent third-party Web sites ("Linked Sites”). These Linked Sites are provided solely as a convenience to our visitors. Such Linked Sites are not under our control, and we are not responsible for and does not endorse the content of such Linked Sites, including any information or materials contained on such Linked Sites. You will need to make your own independent judgment regarding your interaction with these Linked Sites. 4. FORWARD LOOKING STATEMENTS All materials reproduced on this site speak as of the original date of publication or filing. The fact that a document is available on this site does not mean that the information contained in such document has not been modified or superseded by events or by a subsequent document or filing. We have no duty or policy to update any information or statements contained on this site and, therefore, such information or statements should not be relied upon as being current as of the date you access this site.</string>
+    <string name="terms_note"><font color="#00a8e8">PLEASE NOTE:</font>We reserve the right, at our sole discretion, to change, modify or otherwise alter these Terms and Conditions at any time. Unless otherwise indicated, amendments will become effective immediately. Please review these Terms and Conditions periodically. Your continued use of the Site following the posting of changes and/or modifications will constitute your acceptance of the revised Terms and Conditions and the reasonableness of these standards for notice of changes. For your information, this page was last updated as of the date at the top of these terms and conditions.</string>
+    <string name="terms_heading_one_tx">By using this Site, you agree to be bound by, and to comply with, these Terms and Conditions. If you do not agree to these Terms and Conditions, please do not use this site. </string>
+    <string name="share_using">Share</string>
+    <string name="notification_channel_id">News2Day</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="nodata_telugu">ఈ ప్రదేశంలో డేటా \nఅందుబాటులో లేదు</string>
+    <string name="nodata_english">data not available \nin this location</string>
+    <string name="nodata_hindi">डेटा इस स्थान पर \nउपलब्ध नहीं है</string>
+    <string name="change_lang_te">భాషను ఎంచుకోండి</string>
+    <string name="change_lang_hi">भाषा का चयन करें</string>
+    <string name="change_lang_en">Select Language</string>
+
+    <string name="change_location_te">స్థానాన్ని ఎంచుకోండి</string>
+    <string name="change_location_hi">स्थान चुनें</string>
+    <string name="change_location_en">Select Location</string>
+
+    <string name="update_location_te">స్థానాన్ని నవీకరించండి</string>
+    <string name="update_location_hi">स्थान अपडेट करें</string>
+    <string name="update_location_en">Update Location</string>
+
+    <string name="select_theme_te">థీమ్ ఎంచుకోండి</string>
+    <string name="select_theme_hi">चुनिंदा विषय</string>
+    <string name="select_theme_en">Select Theme</string>
+
+    <string name="notification_te">నోటిఫికేషన్</string>
+    <string name="notification_hi">अधिसूचना</string>
+    <string name="notification_en">Notification</string>
+
+    <string name="delete_my_account_te">నా ఖాతాను తొలగించండి</string>
+    <string name="delete_my_account_hi">मेरा एकाउंट हटा दो</string>
+    <string name="delete_my_account_en">Delete My Account</string>
+
+    <string name="logout_te">లాగ్ అవుట్</string>
+    <string name="logout_hi">लॉग आउट</string>
+    <string name="logout_en">Logout</string>
+
+    <string name="search_district_en">Search District</string>
+    <string name="search_district_te">జిల్లా శోధన</string>
+    <string name="search_district_hi">जिला खोजें</string>
+
+    <string name="continue_en">CONTINUE</string>
+    <string name="continue_te">కంటిన్యూ</string>
+    <string name="continue_hi">जारी रखें</string>
+
+    <string name="enter_your_mobile_number_en">Enter your mobile number</string>
+    <string name="enter_your_mobile_number_te">మీ మొబైల్ నెంబర్ ను ఎంటర్ చేయండి</string>
+    <string name="enter_your_mobile_number_hi">अपना मोबाइल संख्या दर्ज करे</string>
+
+    <string name="by_continuing_you_agree_to_our_en">By continuing you agree to our</string>
+    <string name="by_continuing_you_agree_to_our_te">కొనసాగించడం ద్వారా మీరు మా</string>
+    <string name="by_continuing_you_agree_to_our_hi">जारी रखकर आप हमारे</string>
+
+    <string name="mobile_number_en">Mobile Number</string>
+    <string name="mobile_number_te">మొబైల్ నంబర్</string>
+    <string name="mobile_number_hi">मोबाइल नंबर</string>
+
+    <string name="let_s_get_started_en">Lets get started!</string>
+    <string name="let_s_get_started_te">ప్రారంభిద్దాం!</string>
+    <string name="let_s_get_started_hi">आएँ शुरू करें!</string>
+
+    <string name="skip_en">Skip</string>
+    <string name="skip_te">దాటవేయి</string>
+    <string name="skip_hi">छोड़ें</string>
+
+    <string name="enter_otp_en">Enter OTP</string>
+    <string name="enter_otp_te">OTP నమోదు చేయండి</string>
+    <string name="enter_otp_hi">ओटीपी दर्ज करें</string>
+
+    <string name="log_in_en">Log in</string>
+    <string name="log_in_te">ప్రవేశించండి</string>
+    <string name="log_in_hi">लॉग इन करें</string>
+
+    <string name="settings_en">Settings</string>
+    <string name="settings_te">సెట్టింగులు</string>
+    <string name="settings_hi">समायोजन</string>
+
+    <string name="about_us_en">About Us</string>
+    <string name="about_us_te">మా గురించి</string>
+    <string name="about_us_hi">हमारे बारे में</string>
+
+    <string name="faq_s_amp_tutorials_en"><![CDATA[FAQ\'s & Tutorials]]></string>
+    <string name="faq_s_amp_tutorials_te"><![CDATA[తరచుగా అడిగే ప్రశ్నలు & ట్యుటోరియల్స్]]></string>
+    <string name="faq_s_amp_tutorials_hi"><![CDATA[अक्सर पूछे जाने वाले प्रश्न और ट्यूटोरियल]]></string>
+
+    <string name="contact_us_en">Contact Us</string>
+    <string name="contact_us_te">మమ్మల్ని సంప్రదించండి</string>
+    <string name="contact_us_hi">संपर्क करें</string>
+
+    <string name="feedback_en">Feedback</string>
+    <string name="feedback_te">అభిప్రాయం</string>
+    <string name="feedback_hi">प्रतिपुष्टि</string>
+
+    <string name="refer_the_app_en">Refer the App</string>
+    <string name="refer_the_app_te">యాప్‌ని చూడండి</string>
+    <string name="refer_the_app_hi">ऐप देखें</string>
+
+    <string name="rate_us_en">Rate Us</string>
+    <string name="rate_us_te">మాకు రేట్ చేయండి</string>
+    <string name="rate_us_hi">हमें रेटिंग दें</string>
+
+    <string name="options_en">Options</string>
+    <string name="options_te">ఎంపికలు</string>
+    <string name="options_hi">विकल्प</string>
+
+    <string name="view_all_en">View All</string>
+    <string name="view_all_te">అన్నీ వీక్షించండి</string>
+    <string name="view_all_hi">सभी को देखें</string>
+
+    <string name="no_sub_categories_available_en">No Sub Categories Available</string>
+    <string name="no_sub_categories_available_te">ఉప వర్గాలు అందుబాటులో లేవు</string>
+    <string name="no_sub_categories_available_hi">कोई उप श्रेणियां उपलब्ध नहीं हैं</string>
+
+    <string name="Videos_are_not_available_en">Videos are not available</string>
+    <string name="Videos_are_not_available_te">వీడియోలు అందుబాటులో లేవు</string>
+    <string name="Videos_are_not_available_hi">वीडियो उपलब्ध नहीं हैं</string>
+
+    <string name="contests_en">Contests</string>
+    <string name="contests_te">పోటీలు</string>
+    <string name="contests_hi">प्रतियोगिता</string>
+
+    <string name="data_not_available_en">data not available</string>
+    <string name="data_not_available_te">డేటా అందుబాటులో లేదు</string>
+    <string name="data_not_available_hi">डेटा उपलब्ध नहीं</string>
+
+    <string name="search_data_not_available_en">Search Data Not Available</string>
+    <string name="search_data_not_available_te">శోధన డేటా అందుబాటులో లేదు</string>
+    <string name="search_data_not_available_hi">खोज डेटा उपलब्ध नहीं है </string>
+    <string name="url_en">"We couldn't found any URL"</string>
+    <string name="url_te">"మేము ఏ URL ని కనుగొనలేకపోయాము"</string>
+    <string name="url_hi">"हमें कोई यूआरएल नहीं मिला"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error">Error Found Please Check</string>
+    <string name="connectiontimeout">Connection Timeout</string>
+    <string name="you_must">You Must Be LogIn Before Sharing Post</string>
+    <string name="post_successfull">Post Shared Successfully</string>
+    <string name="no_records">No records found</string>
+    <string name="please_select_district">Please select District</string>
+    <string name="error_image">Error while capturing image</string>
+    <string name="enter_email">Please enter Email Id</string>
+    <string name="enter_valid_email">Please Enter Valid Email Id</string>
+    <string name="enter_mobile_number">Please enter Mobile Number</string>
+    <string name="enter_valid_mobile">Please Enter Valid Mobile Number</string>
+    <string name="enter_name">Please Enter Name</string>
+    <string name="enter_title">Please enter Title Of the Issue</string>
+    <string name="enter_expirence">Please enter Experience</string>
+    <string name="otp_sent">OTP Sent Successfully :</string>
+    <string name="states_data">States data not available</string>
+    <string name="select_report">Please Select Any Report</string>
+    <string name="select_other_report">Please Enter Other Report In Box</string>
+    <string name="report_sucessfull">Reported Successfully</string>
+    <string name="invalid_otp">Invalid OTP</string>
+    <string name="add_booked">Added to Bookmark</string>
+    <string name="change_language">Language Changed Successfully</string>
+
+
+</resources>

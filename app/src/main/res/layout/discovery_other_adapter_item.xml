@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/brief_data_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/brief_data_iv"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/breif_data_img" />
+
+        <TextView
+            android:id="@+id/brief_data_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Breif Data"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+</LinearLayout>

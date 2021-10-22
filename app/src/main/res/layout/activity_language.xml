@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activity.LoginActivity">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/toolbar_others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:gravity="center"-->
+        <!--            android:layout_marginTop="100dp"-->
+        <!--            android:text="Select Language"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="@dimen/_16sdp" />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/bt_english"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:background="@drawable/bt_grey_background"-->
+            <!--                android:text="English"-->
+            <!--                android:paddingHorizontal="@dimen/_40sdp"-->
+            <!--                android:paddingVertical="@dimen/_10sdp"-->
+            <!--                android:textColor="@android:color/darker_gray"-->
+            <!--                android:layout_marginTop="50dp"/>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:text="or"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                 style="@style/Theme.AppCompat.Light.NoActionBar"-->
+            <!--                android:textSize="16sp" />-->
+
+            <!--            <TextView-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:id="@+id/bt_telugu"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:paddingHorizontal="@dimen/_40sdp"-->
+            <!--                android:paddingVertical="@dimen/_10sdp"-->
+            <!--                android:textColor="@android:color/darker_gray"-->
+            <!--                android:background="@drawable/bt_grey_background"-->
+            <!--                android:text="Telugu " />-->
+
+            <!--            <TextView-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:text="or"-->
+            <!--                 style="@style/Theme.AppCompat.Light.NoActionBar"-->
+            <!--                android:textSize="16sp" />-->
+
+            <!--            <TextView-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:id="@+id/bt_hindi"-->
+            <!--                android:paddingHorizontal="@dimen/_40sdp"-->
+            <!--                android:paddingVertical="@dimen/_10sdp"-->
+            <!--                android:textColor="@android:color/darker_gray"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:background="@drawable/bt_grey_background"-->
+            <!--                android:text=" Hindi " />-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rl_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</layout>

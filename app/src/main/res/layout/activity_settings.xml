@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#FDFBFD"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/tool_bar_lay_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="3">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:elevation="5dp"-->
+<!--                android:id="@+id/cv_bookmark"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:text="Bookmark"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:id="@+id/cv_language"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:src="@mipmap/ic_launcher"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:singleLine="true"-->
+<!--                        android:text="change language"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:elevation="5dp"-->
+<!--                android:id="@+id/cv_location"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:text="change location"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="3">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:elevation="5dp"-->
+<!--                android:id="@+id/cv_privacy"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                         android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:text="privacy policy"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:id="@+id/cv_terms"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="55dp"-->
+<!--                         android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:singleLine="true"-->
+<!--                        android:text="terms &amp; conditions"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:elevation="5dp"-->
+<!--                android:id="@+id/cv_feedback"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                         android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:text="Feedback"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="3">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:elevation="5dp"-->
+<!--                android:visibility="invisible"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                         android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:text="Bookmark"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                android:id="@+id/cv_contact"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                         android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:text="contact us"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="12sp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:elevation="5dp"-->
+<!--                android:visibility="invisible"-->
+<!--                app:cardCornerRadius="20dp"-->
+<!--                app:cardElevation="5dp"-->
+<!--                app:cardUseCompatPadding="true">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:gravity="center"-->
+<!--                    android:orientation="vertical">-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="50dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                         android:src="@mipmap/ic_launcher" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                         android:layout_marginTop="20dp"-->
+<!--                        android:text="change location"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:textSize="8dp" />-->
+
+<!--                </LinearLayout>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+<!--        </LinearLayout>-->
+
+        <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</layout>

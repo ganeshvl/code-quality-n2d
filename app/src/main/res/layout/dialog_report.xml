@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/out_side_lay_out"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@drawable/edit_text_border"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="end">
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/error"
+            app:tint="@color/dark_grey" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_mistake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Report Mistakes"
+        android:textColor="#000"
+        android:textSize="@dimen/_14sdp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reports_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--    <CheckBox-->
+        <!--        android:id="@+id/cb_other"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_margin="@dimen/_5sdp"-->
+        <!--        android:buttonTint="@color/app_color"-->
+        <!--        android:fontFamily="@font/poppins_regular"-->
+        <!--        android:gravity="center_vertical|center"-->
+        <!--        android:text="Others"-->
+        <!--        android:textColor="#000"-->
+        <!--        android:textSize="@dimen/_15sdp" />-->
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/others_ed_tx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/button_bg"
+        android:inputType="textImeMultiLine"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_50sdp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/submit_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/bt_background"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/_50sdp"
+        android:paddingVertical="@dimen/_6sdp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp" />
+
+
+</LinearLayout>

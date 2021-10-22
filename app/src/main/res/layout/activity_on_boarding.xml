@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:id="@+id/skip_tx"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right"-->
+<!--            android:fontFamily="@font/poppins_regular"-->
+<!--            android:layout_marginTop="@dimen/_15sdp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:text="Skip"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="@dimen/_16sdp" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text="@string/news_day"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/app_color"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_below="@+id/skip_tx"-->
+<!--            android:id="@+id/title_tx"-->
+<!--            android:fontFamily="@font/poppins_semibold"-->
+<!--            android:textSize="50sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_400sdp" />
+
+
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+            android:id="@+id/dots_indicator"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:dotsColor="@color/grey"
+            app:dotsCornerRadius="8dp"
+            android:layout_gravity="center"
+            app:dotsSize="14dp"
+            android:layout_below="@+id/view_pager"
+            android:layout_centerInParent="true"
+            app:dotsSpacing="4dp"
+            app:dotsWidthFactor="1.8"
+            app:selectedDotColor="@color/app_secondary"
+
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_startup"
+            android:paddingHorizontal="@dimen/_25sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/save_background"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:paddingVertical="@dimen/_8sdp"
+            android:text="Get Started"
+            android:textColor="#fff"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+    </RelativeLayout>
+</layout>

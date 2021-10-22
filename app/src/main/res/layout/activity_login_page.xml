@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_marginTop="@dimen/_130sdp"
+               android:layout_centerHorizontal="true"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@mipmap/ic_launcher"
+                android:textSize="42sp"
+                android:padding="@dimen/_15sdp"
+                android:background="@drawable/img_circle"
+                android:textStyle="bold"
+
+                android:backgroundTint="@color/app_color"
+                app:tint="@color/white" />
+
+            <TextView
+               android:layout_below="@+id/logo"
+                android:layout_centerInParent="true"
+                android:id="@+id/app_name"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEWS2DAY"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="@dimen/_30sdp"/>
+
+            <TextView
+                android:layout_marginBottom="@dimen/_100sdp"
+                android:layout_centerInParent="true"
+                android:id="@+id/next_gen"
+                android:layout_below="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="The NexGen Short News App"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_bg"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_16sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center"
+                        android:id="@+id/lets_get_page_tv"
+                        android:text="@string/let_s_get_started_en"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_enter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/ll_mobile"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center"
+                        android:text="@string/enter_your_mobile_number_en"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:id="@+id/ll_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/edit_text_border"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:paddingVertical="@dimen/_12sdp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                style="@style/Theme.AppCompat.Light.NoActionBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:fontFamily="@font/poppins_regular"
+                                android:gravity="center"
+                                android:paddingHorizontal="@dimen/_5sdp"
+                                android:text="+91"
+                                android:textSize="@dimen/_13sdp" />
+
+                            <Spinner
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:visibility="invisible" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/dark_grey" />
+
+                        <TextView
+                            android:id="@+id/et_mobile"
+                            android:layout_width="272dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:background="@null"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint="Mobile Number"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:textSize="@dimen/_13sdp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:id="@+id/tv_skip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="end"
+                        android:padding="@dimen/_2sdp"
+                        android:text="@string/skip_en"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp"
+                        android:textStyle="bold"
+                        app:drawableRightCompat="@drawable/forward"
+                        app:drawableTint="@color/white" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</layout>

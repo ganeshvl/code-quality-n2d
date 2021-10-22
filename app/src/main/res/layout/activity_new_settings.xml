@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#FDFBFD"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/rl_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="English"
+                    android:id="@+id/lang_tv"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_11sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:src="@drawable/down_arrow"
+                    app:tint="@color/app_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:src="@drawable/linguistics"
+                    app:tint="@color/dark_grey" />
+
+                <TextView
+                    android:id="@+id/change_lang_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Change Language"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@color/grey" />
+
+        <LinearLayout
+            android:id="@+id/ll_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_10sdp">
+
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:src="@drawable/location"
+                app:tint="@color/dark_grey" />
+
+            <TextView
+                android:id="@+id/change_location_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Update Location"
+                android:textColor="#000"
+                android:textSize="@dimen/_13sdp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/day_mode_ll"
+                android:background="@drawable/bt_grey_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingVertical="@dimen/_2sdp"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_13sdp"
+                    android:layout_height="@dimen/_13sdp"
+                    android:src="@color/app_color"
+                    android:padding="@dimen/_2sdp"
+                    android:background="@drawable/white_color_circle_shape"
+                    android:layout_gravity="center"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Day"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_10sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/bt_grey_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/night_mode_ll"
+                android:layout_centerVertical="true"
+                android:paddingVertical="@dimen/_3sdp"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Night"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_8sdp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_13sdp"
+                    android:layout_height="@dimen/_13sdp"
+                    android:src="@color/black"
+                    android:padding="@dimen/_2sdp"
+                    android:background="@drawable/white_color_circle_shape"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_gravity="center"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:src="@drawable/delete_icon"
+                    app:tint="@color/dark_grey" />
+
+                <TextView
+                    android:id="@+id/select_theme_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Select Theme"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@color/grey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_10sdp">
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/off_ll"
+                android:background="@drawable/bt_grey_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingVertical="@dimen/_3sdp"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_13sdp"
+                    android:layout_height="@dimen/_13sdp"
+                    android:src="@color/black"
+                    android:background="@drawable/white_color_circle_shape"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/_2sdp"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Off"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_10sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/bt_grey_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:id="@+id/on_ll"
+                android:layout_centerVertical="true"
+                android:paddingVertical="@dimen/_3sdp"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="On"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_10sdp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_13sdp"
+                    android:layout_height="@dimen/_13sdp"
+                    android:src="@color/app_color"
+                    android:padding="@dimen/_2sdp"
+                    android:background="@drawable/white_color_circle_shape"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_gravity="center"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:src="@drawable/bell"
+                    app:tint="@color/dark_grey" />
+
+                <TextView
+                    android:id="@+id/notification_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Notifications"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@color/grey" />
+
+        <LinearLayout
+            android:id="@+id/ll_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_10sdp">
+
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:src="@drawable/remove_user"
+                app:tint="@color/dark_grey" />
+
+            <TextView
+                android:id="@+id/delete_account_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Delete My Account"
+                android:textColor="#000"
+                android:textSize="@dimen/_13sdp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@color/grey" />
+
+        <LinearLayout
+            android:id="@+id/ll_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="@dimen/_10sdp">
+
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:src="@drawable/logout_new"
+                app:tint="@color/dark_grey" />
+
+            <TextView
+                android:id="@+id/logout_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Logout"
+                android:textColor="#000"
+                android:textSize="@dimen/_13sdp" />
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</layout>

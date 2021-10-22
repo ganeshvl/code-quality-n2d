@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <ImageView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_400sdp"
+        android:id="@+id/onboading_img"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+       android:layout_marginRight="@dimen/_20sdp"
+        android:layout_weight="2"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+android:layout_marginBottom="@dimen/_30sdp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="NEWS2DAY"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/app_color"
+        android:textSize="@dimen/_30sdp" />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/heading_tx"
+        android:textStyle="normal"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="4 new job recommendations based on your intrests"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp" />
+
+
+
+
+</LinearLayout>

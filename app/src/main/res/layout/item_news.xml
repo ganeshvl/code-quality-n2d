@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/govt_sub_lay_out">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:paddingStart="12dp"
+        android:paddingTop="26dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/tv_news_title"
+            style="@style/Theme.AppCompat.Light.NoActionBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:minLines="2"
+            android:text="PM MODI NEW COUNCIL OF MINSTERS Violated Human Rights"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/iv_options"
+            app:layout_constraintStart_toEndOf="@id/iv_news_image"
+            app:layout_constraintTop_toTopOf="@id/iv_news_image" />
+
+        <ImageView
+            android:id="@+id/iv_news_image"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/imagepost"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_news_source"
+            style="@style/Theme.AppCompat.Light.NoActionBar"
+            android:layout_width="300dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLines="2"
+            android:text="IBPS Recruitment 2021 Notification for various posts in institute"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/tv_news_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_news_title" />
+
+        <ImageButton
+            android:id="@+id/iv_options"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_news_title"
+            app:srcCompat="@drawable/ic_more" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:layout_marginLeft="@dimen/_50sdp" >
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="@color/black"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 hours ago"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_share"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/grey" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/no_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/gray_stroke_background_shape"
+        android:paddingHorizontal="@dimen/_30sdp"
+        android:paddingVertical="@dimen/_30sdp"
+        android:text="News data not available\n in this location"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18sdp"/>
+</LinearLayout>

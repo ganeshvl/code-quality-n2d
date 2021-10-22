@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".Activity.SplashActivity">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@mipmap/ic_launcher"
+            android:textSize="42sp"
+            android:padding="@dimen/_15sdp"
+            android:background="@drawable/img_circle"
+            android:textStyle="bold"
+            android:backgroundTint="@color/app_color"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/next_gen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEWS2DAY"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_30sdp"/>
+
+        <TextView
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:layout_centerInParent="true"
+            android:id="@+id/next_gen"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="The NexGen Short News App"/>
+    </RelativeLayout>
+</layout>
